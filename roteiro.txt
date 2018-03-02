@@ -30,3 +30,31 @@
 
 14)cat -A arquivo.txt > mostra linhas dos arquivos
 
+15)tac arquiv.txt > mostra o arquivo de baixo para cima
+
+16)tail arquivo.txt > mostra apenas a parte de baixo do arquivo
+
+17)head arquivo.txt > mostra apenas a parte de cima do arquivo
+
+18)wc arquivo.txt > conta as linhas, palavras e caracteres do arquivo
+
+19)head -n3 arquivo.txt | wc -w > mostra as 3 primeiras linhas e 
+quantidade de palavras
+
+20)sort arquivo.txt > ordem alfabetica
+
+21)tail/etc/passwd | sort -k3 ":"
+
+22)uniq -u arquivos.txt > nao aparece string repetida
+
+23)uniq -d arquivos.txt > apenas string repetida
+
+25)uniq -c arquivos.txt > vai conta as string repetidas
+
+26)
+
+resultado da mega sen que mais saiu
+sort - n ResultadoMega2017 | uniq -c | sort -n tail -n1
+sort - n ResultadoMega2017 | uniq -c | sort -n head -n2
+
+23) 
