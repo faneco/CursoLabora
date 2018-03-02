@@ -1,0 +1,32 @@
+1)wget > baixar arquivo git
+
+2)mkdir > cria um diretorio
+
+3)mkdir -p rafael/git/post > cria varios diretorios
+
+4)rm nome > deletar arquvio
+ touch nome > cria arquivo  // atualizar data
+ rm -r nome > deletar diretorio
+
+5)rm -rf nome > Forca remoção
+
+6)scp -r usuario@ip:~/ARQUIVOS . > acessar passa na rede de outro PC
+ ssh nome computador@ip > entra no pc usuario
+
+7)ls -l > Exibir aquivos por data
+
+8)ps > ver PID do processador
+ kill > finalizar comando
+
+9)ps axu > detalhe dos processos do usuario no sistema
+
+10)touch >> atualizar data
+
+11) man > mostrar manual dos comandos
+
+12)cat componentes.txt > mostrar conteudo do arquivo
+
+13)cat -b arquivo.txt > mostrar linhas dos arquivos, menos as em branco
+
+14)cat -A arquivo.txt > mostra linhas dos arquivos
+
